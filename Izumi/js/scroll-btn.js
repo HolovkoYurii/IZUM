@@ -40,3 +40,25 @@ $(document).ready(function(){
       });
   });
   
+
+
+
+        $(document).ready(function(){
+            $(".menu-icon").on("click", function(){
+                $(".header-menu").slideToggle();
+            })
+             var swiper = new Swiper('.swiper-container', {
+            pagination: {
+                el: '.swiper-pagination',
+            },
+        });
+          var mySwiper = new Swiper('.swiper-container', {
+       autoplay: {
+       delay: 1000,
+       },
+       });
+            });
+
+
+    
+    

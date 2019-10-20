@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Izumi</title>
     <link href="https://fonts.googleapis.com/css?family=Asap:400,500,700|Lato:300,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -13,21 +15,21 @@
     <header class="header">
         <div class="container">
             <nav id="menu">
-                <!-- nav -->
+                <!-- menu -->
                 <a href="index.html" class="logo">
                     <img src="img/logo.png" alt="logo">
                     <span class="logo-name">OENRIQUE</span>
                     <span class="logo-text">UX/UI EXPERT</span>
                 </a>
-                <img src="img/menu.svg" alt="icon menu" class="mobile-menu">
+                <img src="img/menu.svg" alt="icon menu" class="menu-icon">
                 <ul class="header-menu">
-                    <li><a href="">home</a></li>
+                    <li><a href="index.html">home</a></li>
                     <li><a href="#about-me">about</a></li>
                     <li><a href="#services">services</a></li>
                     <li><a href="#portfolio">portfolio</a></li>
                     <li><a href="#contact">contact</a></li>
                 </ul>
-                <!-- /nav -->
+                <!-- /menu -->
             </nav>
         </div>
     </header>
@@ -199,16 +201,58 @@
         <div class="container">
             <span class="border"></span>
             <h2>TESTIMONIALS</h2>
-            <div class="slider-wrapper">
-                <!-- sliderwrapper -->
-                <img src="img/customer.jpg" alt="customer img">
-                <div>
-                <div class="customer-name">Limara tusi </div>
-                <div class="customer-position">CEO, RanDOM COMPANY</div>
-                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-                    sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies
-                    nec,</p>
-                </div><!-- /sliderwrapper -->
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="slider-wrapper">
+                            <!-- sliderwrapper -->
+                            <img src="img/customer.jpg" alt="customer img">
+                            <div>
+                                <div class="customer-name">Limara tusi </div>
+                                <div class="customer-position">CEO, RanDOM COMPANY</div>
+                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget
+                                    dolor. Aenean massa. Cum
+                                    sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+                                    Donec
+                                    quam felis, ultricies
+                                    nec,</p>
+                            </div><!-- /sliderwrapper -->
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slider-wrapper">
+                            <!-- sliderwrapper -->
+                            <img src="img/customer.jpg" alt="customer img">
+                            <div>
+                                <div class="customer-name">Limara tusi </div>
+                                <div class="customer-position">CEO, RanDOM COMPANY</div>
+                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget
+                                    dolor. Aenean massa. Cum
+                                    sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+                                    Donec
+                                    quam felis, ultricies
+                                    nec,</p>
+                            </div><!-- /sliderwrapper -->
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slider-wrapper">
+                            <!-- sliderwrapper -->
+                            <img src="img/customer.jpg" alt="customer img">
+                            <div>
+                                <div class="customer-name">Limara tusi </div>
+                                <div class="customer-position">CEO, RanDOM COMPANY</div>
+                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget
+                                    dolor. Aenean massa. Cum
+                                    sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+                                    Donec
+                                    quam felis, ultricies
+                                    nec,</p>
+                            </div><!-- /sliderwrapper -->
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
             </div>
         </div>
         <!--/reviews-->
@@ -253,7 +297,7 @@
         <!-- contact -->
         <div class="container">
             <span class="border"></span>
-            <h2>SAY HELLO!</h2>
+            <h2 class="h2">SAY HELLO!</h2>
             <form>
                 <div class="wrapp-input">
                     <input type="text" placeholder="Name">
@@ -347,6 +391,7 @@
             <div class="footer-info">2017. All Right Reserved</div>
         </div>
     </footer>
+    <script src="js/swiper.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
     <script src="js/scroll-btn.js"></script>
     <script src="js/numcount.js"></script>
