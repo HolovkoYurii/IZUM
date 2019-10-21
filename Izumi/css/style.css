@@ -8,6 +8,9 @@ body{
     position: relative;
     overflow-x: hidden;
 }
+a img{
+  border: none /* !important */;
+}
 .container{
     max-width: 1200px;
     width: 100%;
@@ -117,7 +120,7 @@ nav a{
 /* /header */
 
 /* start-screen */
-.start-screen{
+#start-screen{
   position: relative;
   background: url(../img/bg-main-screen.jpg);
   background-repeat: no-repeat;
@@ -125,7 +128,7 @@ nav a{
   padding-top: 100px;
   padding-bottom: 10px;
 }
-.start-screen .container{
+#start-screen .container{
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -137,7 +140,7 @@ nav a{
   padding-top: 170px;
   position: absolute;
 }
-.start-screen img{
+#start-screen img{
   margin-left: auto;
 }
 .title{
